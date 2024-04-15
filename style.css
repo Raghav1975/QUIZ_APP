@@ -1,0 +1,56 @@
+/* Reset CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Quiz Container Styles */
+.quiz-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f3d3d9;
+    background-image: linear-gradient(45deg, #f3d3d9, #e8c3cb); /* Gradient background */
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Add transition for box shadow */
+}
+
+/* Title Styles */
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333; /* Change title color */
+}
+
+/* Quiz Section Styles */
+.quiz-section {
+    margin-bottom: 20px;
+}
+
+/* Quiz Link Styles */
+.quiz-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff; /* Change text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow */
+}
+
+.quiz-link:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome Message Styles */
+.welcome-message {
+    margin-top: 30px;
+    font-size: 24px;
+    color: #555; /* Change welcome message color */
+}

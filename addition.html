@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-background"> <!-- Added class to the body -->
+    <div class="quiz-container">
+        <h1>Addition Quiz</h1>
+        <div id="addition-quiz"></div>
+        <input type="text" id="addition-answer" placeholder="Your answer">
+        <button onclick="checkAddition()">Check Answer</button>
+        <p id="addition-result"></p>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        displayQuestion("addition-quiz", additionQuestions);
+    </script>
+</body>
+</html>
